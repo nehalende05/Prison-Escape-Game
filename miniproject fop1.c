@@ -3,9 +3,9 @@
 int main() {
     int choice;
 
-    printf("========================================\n");
+    printf("=======================================\n");
     printf("       ""WELCOME TO PRISON ESCAPE""         \n");
-    printf("========================================\n\n");
+    printf("=======================================\n\n");
 
     printf("You wake up in prison.\n");
     printf("Freedom is calling... but not loudly.\n\n");
@@ -117,7 +117,7 @@ int main() {
     scanf("%d", &choice);
 
     if (choice == 1) {
-        printf("\n========================================\n");
+        printf("\n======================================\n");
         printf(" YOU ESCAPED SUCCESSFULLY! \n");
         printf(" Crime may not pay, but logic does \n");
         printf("========================================\n");
@@ -127,3 +127,4 @@ int main() {
 
     return 0;
 }
+
